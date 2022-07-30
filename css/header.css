@@ -1,0 +1,107 @@
+header {
+    background: #0387fc;
+    background-image: 
+    linear-gradient(to right, #053beee0, rgba(24, 152, 238, 0.842)),
+    url(https://res2.weblium.site/res/5d9f40ea7889780027ffb893/5ed4012cb247d3002282a1ea_optimized_1920);
+    
+    padding: 0 32px;
+    transition: opacity .3s ease-out;
+}        
+
+.big__banner__image {
+    width: 600px;
+    height: 350x;
+}
+
+.logo__header {
+    padding: 30px 0;
+    width: 155px;
+    height: auto;
+  
+}
+
+.header-description {
+    padding: 115px 0 140px;
+}
+
+
+
+.any__idea {
+    font-size: 78px;
+    font-family: 'Work-sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.all__hrefs {
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffffcf;
+}
+
+
+.description__about__app {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Hind', sans-serif;
+    
+}
+
+.free__trial {
+    display: inline-block;
+    text-align: center;
+    padding: 13px 34px;
+    border-radius: 4px;
+    border: 2px solid var(--light-text-color);
+    color: var(--title-color);
+    font-family: var(--textfont);
+    font-size: 15.4px;
+    font-weight: 700;
+    box-shadow: 0 0 0 0 transparent;
+    background-color: var(--light-text-color);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    
+}
+
+.free__trial:hover {
+    background-color:#2cc40d;
+    color: var(--light-text-color);
+    border-style: none;
+}
+
+.buy__for__only {
+    display: inline-block;
+    text-align: center;
+    padding: 13px 34px;
+    border-radius: 4px;
+    border: 2px solid var(--light-text-color);
+    color: var(--light-text-color);
+    font-family: var(--textfont);
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0 0 0 0 transparent;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.buy__for__only:hover {
+    background-color:var(--light-text-color);
+    color: var(--button-color);
+
+}
+
+.no__credit__card {
+    color: #fff;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.link__button {
+    text-decoration: none;
+    color: #ffffffcf;
+}

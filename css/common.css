@@ -1,0 +1,41 @@
+:root {
+    /* COLORS */
+    --title-color: rgb(44, 46, 56);
+    --section-name-color: rgb(3, 135, 252);
+    --text-color:  rgb(111, 116, 144);  
+    --button-color: rgb(3, 135, 252);
+    --dark-button-color: rgb(37, 72, 197);
+    --light-text-color: rgb(255, 255, 255);
+    --gray-backgroundcolor: rgb(243, 244, 248);
+    /* FONTS */
+    --mainfont: 'Work Sans', sans-serif;
+    --textfont: 'Hind', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 990px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 765px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
