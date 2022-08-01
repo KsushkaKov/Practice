@@ -1,114 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boost App</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <header class="header">
-        <nav class="header__nav">
-            <div class="logo__header">
-                <a href="#">
-                    <img class="logo__header" src="img/logo.svg" alt="BoostApp logo" width="150">
-                </a>
+  <body>
+    <header>
+      <section class="banner__description">
+        <div class="container-section">
+          <nav class="navigation">
+            <div class="navigation__logo">
+              <a href="#">
+                <img
+                  class="navigation__logo-img"
+                  src="img/logo.svg"
+                  alt="BoostApp logo"
+                />
+              </a>
+              <div class="navigation-burger"><span></span></div>
             </div>
-            <div class="all__hrefs">
-                <a href="#features" class="link__button">Features</a>
-                <a href="#benefits" class="link__button">Benefits</a>
-                <a href="#testimonials" class="link__button">Testimonials</a>
-                <a href="#contacts" class="link__button">Contacts</a>
-                <a href="https://www.facebook.com/" class="link__button"><img src="img/header/facebook.svg"
-                        alt="facebook"></a>
-                <a href="https://www.instagram.com/" class="link__button"><img src="img/header/instagram.svg"
-                        alt="instagram"></a>
-                <a href="https://www.youtube.com/" class="link__button"><img src="img/header/you_tube.svg"
-                        alt="you-tube"></a>
+            <div class="navigation-wrapper">
+          
+                <ul class="navigation-pages">
+                  <li class="navigation-pages-link">
+                    <a href="#features" class="navigation__features navigation__link"
+                      >Features</a
+                    >
+                  </li>
+                  <li class="navigation-pages-link">
+                    <a href="#benefits" class="navigation__benefits navigation__link" 
+                      >Benefits</a
+                    >
+                  </li>
+                  <li class="navigation-pages-link">
+                    <a href="#testimonials" class="navigation__testimonials navigation__link"
+                      >Testimonials</a
+                    >
+                  </li>
+                  <li class="navigation-pages-link">
+                    <a href="#analytics" class="navigation__analytics navigation__link"
+                      >Analytics</a
+                    >
+                  </li>
+                  <li class="navigation-pages-link">
+                    <a href="#contacts" class="navigation__contacts navigation__link"
+                      >Contacts</a
+                    >
+                  </li>
+                </ul>
+            
+              
+                <ul class="navigation-social">
+                <li><a href="https://www.facebook.com/" target="blank"
+                  ><img src="img/fb.png" alt="facebook"
+                /></a></li>
+                <li><a href="https://www.instagram.com/" target="blank">
+                  <img src="img/insta.png" alt="instagram"
+                /></a></li>
+                <li><a href="https://www.youtube.com/" target="blank"
+                  ><img src="img/yb.png" alt="you-tube"
+                /></a></li>
+                </ul>
+              
+
             </div>
-        </nav>
+          </nav>
 
-        <section class="header-description">
-            <div class="header-grid">
-                <div class="header-grid-title">
-                    <h1 class="any__idea">
-                        Bring Any Idea to Life
-                    </h1>
-                </div>
-                <div class="header-grid-subtitle">
-                    <p class="description__about__app">
-                        Boost App is a powerful desktop and mobile app to edit and manage your website on-the-go.
-                    </p>
-                </div>
-
-                <div class="big__banner__image">
-                    <img class="big__banner__image" src="img/banner.png" alt="banner" width="5000">
-                </div>
-
-                <button class="free__trial">
-                    Start Free Trial
-                </button>
-
-                <button class="buy__for__only">
-                    Buy For Only $0.99
-                </button>
-
-                <div class="no__credit__card">
-                    15 days free trial • No credit card required
-                </div>
+          <div class="banner__grid">
+            <div class="header__main">
+              <h1 class="banner__title">Bring Any Idea to Life</h1>
+              <p class="banner__subtitle">
+                Boost App is a powerful desktop and mobile app to edit and
+                manage your website on-the-go.
+              </p>
             </div>
-
-        </section>
+            <div class="banner__btn-wrraper">
+              <button class="btn__trial">Start Free Trial</button>
+              <button class="btn__buy">Buy For Only $0.99</button>
+            </div>
+            <div class="banner__text">
+              15 days free trial • No credit card required
+            </div>
+            <div class="banner__bg">
+              <img class="banner__bg-image" src="img/banner.png" alt="banner" />
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
     <main>
-        <section class="analytics" id="analytics">
-            <div class="container">
-                <div class="analytics__top">
-                    <div class="analytics__header">04. ANALYTICS</div>
-                    <h2 class="analytics__title">Everything is Super Easy</h2>
-                    <p class="analytics__subtitle">
-                        Configure all metrics without the help of a marketer.
-                    </p>
-                    <div class="analytics__picture">
-                        <img class="analytics__picture-img" src="img/analytics.png"
-                            alt="Illustration of grafics and tables" />
-                    </div>
-                </div>
-                <div class="analytics__icons"> </div>
-                <div class="clock">
-                    <div class="clock-face">
-                        <div class="hand hour-hand"></div>
-                        <div class="hand min-hand"></div>
-                        <div class="hand second-hand"></div>
-                    </div>
-                </div>
+      <section class="analytics" id="analytics">
+        <div class="container">
+          <div class="analytics__top">
+            <div class="analytics__header">04. ANALYTICS</div>
+            <h2 class="analytics__title">Everything is Super Easy</h2>
+            <p class="analytics__subtitle">
+              Configure all metrics without the help of a marketer.
+            </p>
+            <div class="analytics__picture">
+              <img
+                class="analytics__picture-img"
+                src="img/analytics.png"
+                alt="Illustration of grafics and tables"
+              />
             </div>
-        </section>
-
-
-        </footer>
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="js/carousel.js"></script>
-        <script src="js/clock.js"></script>
-</body>
-
+          </div>
+          <div class="analytics__icons"></div>
+          <div class="clock">
+            <div class="clock-face">
+              <div class="hand hour-hand"></div>
+              <div class="hand min-hand"></div>
+              <div class="hand second-hand"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/clock.js"></script>
+  </body>
 </html>
