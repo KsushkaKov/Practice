@@ -229,3 +229,81 @@
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   
   }
+
+
+  .analytics__countdown {
+    border: 1px hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
+    height: 35vh;
+    
+    color:var(--section-name-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    font-family: var(--mainfont);
+  }
+  
+  
+  .analytics__countdown-title {
+    font-size: 25px;
+    margin: -40px 0 40px;
+  }
+  
+  .analytics-year {
+    opacity: 0;
+  }
+  
+  .analytics-countdown {
+    display: none;
+    transform: scale(1);
+  }
+  
+  .analytics-time {
+   padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: 1px hidden;
+    border-radius: 4px;
+    box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
+  color: var(--text-color);
+  }
+  
+    .analytics-time h2 {
+      font-size: 12px;
+      margin: 0;
+      
+    }
+  
+  
+  
+  @media (min-width: 550px) {
+   .analytics__countdown-title {
+      font-size: 38px;
+    }
+  
+    .analytics-time {
+      margin: 15px;
+    }
+  .analytics-countdown {
+    display: none;
+    transform: scale(1.5);
+  }
+  
+    .analytics-time h2 {
+      font-size: 16px;
+      margin: 0;
+    }
+  
+    .analytics-time small {
+      font-size: 12px;
+    }
+  }
+  
